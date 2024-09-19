@@ -1,8 +1,6 @@
 ---
 name: 'Yamllint'
-on:
-  - pull_request
-  - push
+on: [push, pull_request]
 jobs:
   lint:
     name: 'Yamllint'
