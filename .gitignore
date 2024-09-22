@@ -1,1 +1,8 @@
+.env
+docker/homepage/volumes/config/bookmarks.yaml
+docker/homepage/volumes/config/custom.css
+docker/homepage/volumes/config/custom.js
+docker/homepage/volumes/config/docker.yaml
+docker/homepage/volumes/config/kubernetes.yaml
+docker/homepage/volumes/logs
 docker/portainer/volumes/data

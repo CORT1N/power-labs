@@ -1,9 +1,9 @@
 ---
 services:
   portainer:
-    image: portainer/portainer-ce:2.21.1-alpine
+    image: portainer/portainer-ce:${PORTAINER_IMAGE_VERSION}
     container_name: portainer
-    restart: always
+    restart: unless-stopped
     ports:
       - 9443:9443
     volumes:
