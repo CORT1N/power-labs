@@ -1,0 +1,15 @@
+---
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:${HOMEPAGE_IMAGE_VERSION}
+    container_name: homepage
+    restart: unless-stopped
+    env_file:
+      - ./.env
+    ports:
+      - 3000:3000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./volumes/config:/app/config
+      - ./volumes/logs:/var/log/homepage
+...

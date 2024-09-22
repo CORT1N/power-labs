@@ -1,0 +1,24 @@
+---
+- Infrastucture:
+    - Gibraltar:
+        icon: proxmox.png
+        href: http://{{HOMEPAGE_VAR_IP_PVE1}}:8006/
+        ping: {{HOMEPAGE_VAR_IP_PVE1}}
+    - Pathfinder:
+        icon: proxmox.png
+        href: http://{{HOMEPAGE_VAR_IP_PVE2}}:8006/
+        ping: {{HOMEPAGE_VAR_IP_PVE2}}
+    - Octane:
+        icon: proxmox.png
+        href: http://{{HOMEPAGE_VAR_IP_PVE3}}:8006/
+        ping: {{HOMEPAGE_VAR_IP_PVE3}}
+    - Power Whale:
+        icon: portainer.png
+        href: https://{{HOMEPAGE_VAR_IP_DOCKER_HOST}}:{{HOMEPAGE_VAR_PORT_PORTAINER}}/
+        container: portainer
+        widget:
+          type: portainer
+          url: https://{{HOMEPAGE_VAR_IP_DOCKER_HOST}}:{{HOMEPAGE_VAR_PORT_PORTAINER}}
+          env: 2
+          key: {{HOMEPAGE_VAR_TOKEN_PORTAINER}}
+...

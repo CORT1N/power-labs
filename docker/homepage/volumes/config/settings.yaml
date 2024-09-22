@@ -1,0 +1,17 @@
+---
+title: {{HOMEPAGE_VAR_TITLE}}
+background: {{HOMEPAGE_VAR_URL_BACKGROUND}}
+headerStyle: clean
+language: fr
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: true
+  showSearchSuggestions: false
+  hideVisitURL: true
+hideVersion: true
+showStats: true
+statusStyle: "dot"
+instanceName: {{HOMEPAGE_VAR_INSTANCENAME}}
+favicon: {{HOMEPAGE_VAR_URL_FAVICON}}
+logpath: /var/log/homepage
+...
