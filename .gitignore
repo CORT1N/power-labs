@@ -1,4 +1,5 @@
 .env
+docker/fooocus/volumes/data
 docker/homepage/volumes/config/bookmarks.yaml
 docker/homepage/volumes/config/custom.css
 docker/homepage/volumes/config/custom.js
