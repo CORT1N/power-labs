@@ -2,6 +2,8 @@
 
 Important : When you create your template, **NOTE YOUR ROOT PASSWORD**.
 
+For example : `p0w3rLa8z!`.
+
 There are many web tutorials to use and create good templates on PVE.
 
 Now, when you need to fix the VM IP, you need these commands :
