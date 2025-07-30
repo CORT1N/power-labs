@@ -7,3 +7,4 @@ docker/homepage/volumes/config/docker.yaml
 docker/homepage/volumes/config/kubernetes.yaml
 docker/homepage/volumes/logs
 docker/portainer/volumes/data
+.DS_Store
